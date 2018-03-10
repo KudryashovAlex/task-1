@@ -4,4 +4,4 @@ CONFIG += console
 CONFIG -= qt
 
 SOURCES = \
-    main.c
+    main.cpp
