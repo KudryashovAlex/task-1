@@ -2,6 +2,7 @@
 #include<math.h>
 #include<sstream>
 #include<cstring>
+#include <cstdlib>
 int first(int a);
 int second(int a);
 int main()
@@ -19,7 +20,8 @@ int first(int a)
     std::stringstream ss;
     ss<<a;
     ss>>buf;
-    std::cout<<buf;
+    int r=atoi(buf.c_str());
+    std::cout<<r<<std::endl;
     return 0;
 
 }
